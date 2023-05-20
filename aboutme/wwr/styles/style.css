@@ -13,11 +13,11 @@ header {
 }
 #hero-img{
     width: 100%;
+    
   
 }
-nav a:hover {
-    background-color: black;
-}
+
+
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
@@ -25,11 +25,6 @@ nav a:hover {
 .icon {
     width: 80px;
 }
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}    
        
 footer p {
     font-size: 1.2em;
@@ -41,10 +36,7 @@ div {
     max-width: 1600px;
     margin: 0 auto;
   }
-  nav a{
-    text-align: center;
-    
-  }
+ 
 #hero-msg h1{
     text-align: center;
 }
@@ -54,32 +46,30 @@ div {
  }
 .button-box{
     text-align: center;
+    
 }
 main section{
     text-align: center;
 }
-.book{
-    background-color: #fcfbfb;
-}
-.join{
-    background-color:rgba(20,30,13, .7);
-}
+
 .book:hover{
     background-color: black;
 }
 .join:hover{
     background-color: #fcfbfb;
 }
+
 #background{
-    background-color:rgba(20,30,13, .7);
+    background-color:#d9c2a3;
      height: 725px;
     
 }
 .msg{
-    background-color: #fcfbfb;
+    background-color: rgba(20,30,13, .7);
+    color: #fcfbfb;
 }
 footer{
-    background-color: #fcfbfb;
+    background-color: rgba(20,30,13, .7);
 }
 
 nav a {
@@ -94,16 +84,18 @@ nav a {
 }    
 .join {
     text-align: center;
-    color: #fcfbfb;
+    color: #070707;
     text-decoration: none;
+    background-color: #d9c2a3;
 }    
 footer a{
     text-align: center;
-    color: #fcfbfb;
+    color: #d9c2a3;
     text-decoration: none;
 }    
 footer p {
     font-size: 1.2em;
+    color: #d9c2a3;
 }    
 footer p a:hover {
     text-decoration: underline;
