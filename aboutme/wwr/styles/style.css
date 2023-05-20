@@ -7,6 +7,14 @@ body {
 header {
     background-color:rgba(20,30,13, .7);
 }
+.logo{
+    width: 80px;
+
+}
+#hero-img{
+    width: 100%;
+  
+}
 nav a:hover {
     background-color: black;
 }
@@ -31,10 +39,7 @@ footer p a:hover {
 }    
 div {
     max-width: 1600px;
-  
-  background-color: powderblue;
-  text-align: center;
-  margin: 0 auto;
+    margin: 0 auto;
   }
   nav a{
     text-align: center;
@@ -53,16 +58,30 @@ div {
 main section{
     text-align: center;
 }
-.book{background-color: #fcfbfb;}
-.join{background-color:rgba(20,30,13, .7);}
-.book:hover{background-color: black;}
-.join:hover{background-color: #fcfbfb;}
-#background{background-color:rgba(20,30,13, .7);}
-.msg{background-color: #fcfbfb;}
-footer{background-color: #fcfbfb;}
-.icon {
-    width: 80px;
+.book{
+    background-color: #fcfbfb;
 }
+.join{
+    background-color:rgba(20,30,13, .7);
+}
+.book:hover{
+    background-color: black;
+}
+.join:hover{
+    background-color: #fcfbfb;
+}
+#background{
+    background-color:rgba(20,30,13, .7);
+     height: 725px;
+    
+}
+.msg{
+    background-color: #fcfbfb;
+}
+footer{
+    background-color: #fcfbfb;
+}
+
 nav a {
     text-align: center;
     color: #fcfbfb;
