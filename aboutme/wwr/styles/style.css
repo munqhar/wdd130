@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
 #background {
     height: 725px;
+    margin: 200px 0;
 }
 body {
     background-color: #fcfbfb; 
-}
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; 
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    }
+    h2{
+        margin: 0;
+    }
+    .home-title{
+        font-size: 2em;
+        margin-top: 10px;
+    }
 header {
     background-color:rgba(20,30,13, .7);
 }
@@ -11,6 +27,9 @@ header {
     width: 80px;
 
 }
+#logo_link{
+    padding-top: 5px;
+    }
 #hero-img{
     width: 100%;
     
@@ -24,6 +43,7 @@ nav a:hover {
 }    
 .icon {
     width: 80px;
+    padding-top:10px ;
 }
        
 footer p {
@@ -51,6 +71,9 @@ div {
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 
 .book:hover{
     background-color: black;
@@ -67,26 +90,45 @@ main section{
 .msg{
     background-color: rgba(20,30,13, .7);
     color: #fcfbfb;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 200px 0;
+}
+.msg p{
+    font-size: 18px;
+    padding-bottom: 15px;
+
 }
 footer{
     background-color: rgba(20,30,13, .7);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }    
 .book {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
 }    
 .join {
     text-align: center;
     color: #070707;
     text-decoration: none;
     background-color: #d9c2a3;
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }    
 footer a{
     text-align: center;
@@ -100,3 +142,21 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+
+}
+.camping-card{
+    margin: 200px 0;
+
+}
+.rapids-card{
+    margin: 200px 0;
+
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
