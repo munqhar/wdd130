@@ -55,6 +55,8 @@ hr {
   background: var(--accent1-color);
 }
 header {
+  display: grid;
+  grid-template-columns: 150px auto;
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
