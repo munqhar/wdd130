@@ -22,6 +22,7 @@ body {
         font-size: 2em;
         margin-top: 10px;
     }
+    
 #home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -210,6 +211,65 @@ footer .social img{
     grid-column: 8/10;
     grid-row: 2/3;
 
+}
+.river-picture-1{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    margin-top: 50px;
+    border: 10px solid #d9c2a3;
+    
+   
+    
+
+}
+.river-picture-2{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    margin-top: 50px;
+    border: 10px solid #d9c2a3;
+    
+    
+
+}
+.river-picture-3{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    margin-top: 50px;
+    border: 6px solid #d9c2a3;
+   
+    
+    
+    
+
+}
+.card-img-rivers{
+     width: 300px;
+     height: 300px;
+     grid-column: 1/2; 
+     transition: transform .5s;
+     box-shadow: 5px 5px 10px #6f7364;
+     
+       
+          
+      
+      
+      
+}
+.text1{
+    grid-column: 3/13;
+    text-align: justify;
+   
+    
+}
+.text2{
+    grid-column: 3/13;
+    text-align: justify;    
+    
+}
+.text3{
+    grid-column: 3/13;
+    text-align: justify;    
+    
 }
 .card-img {
     border: 10px solid #d9c2a3;
