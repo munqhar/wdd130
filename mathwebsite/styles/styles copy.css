@@ -153,7 +153,16 @@ div {
 .Geometry{
     margin: 50px auto;
 }
+.pi, .Linear{
+    width: 50%;
+    
 
+}
+.linear{
+    width: 50%;
+    
+
+}
 .card-img{
     
     width: 300px;
