@@ -23,7 +23,7 @@ body {
         margin-top: 10px;
     }
     
-#home-grid{
+.home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 
