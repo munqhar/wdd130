@@ -39,7 +39,7 @@ nav {
     font-family:sans-serif,'Open Sans';
     font-size: 22px;    
     display: flex;
-    justify-content: space-around;
+    
     height: 80px;
     grid-column: 2/6;
     background-color: #D47619;
@@ -54,14 +54,15 @@ nav {
         
     }
 nav a:hover  {
-    color: white;
-    background-color: #666236;
+    
+    color: #032287;;
     
     
 }  
 nav a {
+    flex: auto;
     text-align: center;
-    color: #032287;
+    color: white;
     text-decoration: none;
     padding: 3px;
     
@@ -136,6 +137,13 @@ div {
     flex-direction: row;
 
 }
+#whquestions{
+    vertical-align: middle;
+}
+.mathproblem{
+    width: 20%;
+    vertical-align: middle;
+}
 .Calculus1-card{
        
       margin: 50px auto;     
@@ -180,6 +188,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
    
 
 
