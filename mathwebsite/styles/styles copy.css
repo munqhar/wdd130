@@ -13,7 +13,7 @@
     
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #e7cb97; 
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; 
     font-size: 22px;
     padding: 0;
@@ -24,6 +24,7 @@ body {
     width: 170px;
     grid-column: 1/2;
     height: 80px;
+    
     
 
 }
@@ -68,12 +69,16 @@ nav a {
     
 }  
 
-
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    }
 
 
 .home-title{
     font-size: 2em;
-    margin-top: 20%;
+    margin-top: 20%;    
+    text-shadow: rgba(0, 0, 150, 0.726) 3px 3px 5px;
 }
 #background {
     height: 725px;
@@ -91,7 +96,7 @@ div {
  
   #Principal-picture{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     /* margin-top: -100px;
     min-height: 300px; */
     
@@ -101,19 +106,19 @@ div {
     width: 90%;
     object-fit: cover;
     grid-row: 1/3;
-    grid-column: 3/5; 
+    grid-column: 3/6; 
     
   
 }
 
 
 #Principal-picture-box {
-    grid-column: 3/5;
+    grid-column: 3/6;
     grid-row: 3/4;
     /* z-index: -1; */
 }
 #hero-msg {
-    grid-column: 3/5;
+    grid-column: 3/6;
     grid-row: 1/2;
     margin-top: 100px;
     
