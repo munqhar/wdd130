@@ -177,7 +177,32 @@ div {
 .Algebra-information{
   text-align: justify;
 }
+/*------------------ Calculus page grid---------------*/
+  .Calculusinformation{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    
+
+  }
+  .pipic{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    position:absolute;
+    
+
+  }
+  .pi{
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
   
+  .textcalculus{
+    grid-column: 1/2;
+
+  }
+
+  /*-----------------------------------------------------*/
 
 footer {
   background-color: #6f7364;
