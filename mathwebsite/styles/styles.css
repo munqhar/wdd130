@@ -134,10 +134,14 @@ div {
 .home-grid{
   display: flex;
   flex-direction: row;
+  
 
 }
+
 #whquestions{
   vertical-align: middle;
+  padding: 10px 100px;;
+  
 }
 .mathproblem{
   width: 20%;
@@ -215,6 +219,7 @@ footer {
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    
     }
  /* -------------------------------Slides ------------------  */
 
@@ -230,6 +235,7 @@ footer {
    position: relative;
    margin: auto;
  }
+
  
  /* Next & previous buttons */
  .prev, .next {
