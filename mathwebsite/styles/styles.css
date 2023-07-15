@@ -186,9 +186,11 @@ div {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
+    padding-left: 20%;
     
 
   }
+ 
   .pipic{
     grid-column: 2/3;
     grid-row: 4/5;
@@ -207,7 +209,34 @@ div {
   }
 
   /*-----------------------------------------------------*/
+/* Algebra page grid---------------------------*/
+.Algebra-information{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  padding-left: 20%;
 
+}
+.algebrapicture{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  
+  
+
+}
+.algebrapic{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  width: 70%;
+  padding: 5%;
+  margin: 5%;
+}
+
+.textalgebra{
+  grid-column: 1/2;
+
+}
+/*-------------------------------------------------*/
 footer {
   background-color: #6f7364;
   padding: 25px 50px;
