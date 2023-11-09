@@ -15,7 +15,7 @@ const imagenesActividades = {
 	DetectarActividad1: ['./Assets/Act1/act1img1.png', './Assets/Act1/act1img2.png', './Assets/Act1/act1img3.png'],
 	DetectarActividad2: ['./Assets/Act2/act2img1.png', './Assets/Act2/act2img2.png', './Assets/Act2/act2img3.png'],
 	DetectarActividad3: ['./Assets/Act3/act3img1.png', './Assets/Act3/act3img2.png', './Assets/Act3/act3img3.png'],
-	DetectarActividad4: ['./Assets/Act4/act4img1.png', './Assets/Act4/act4img2.png', './Assets/Act4/act4img3.png'],
+	DetectarActividad4: ['./Assets/Act4/act4img1.png', './Assets/Act4/Act4img2.png', './Assets/Act4/act4img3.png'],
 }
 
 actividadElementos.forEach((element, index) => {
