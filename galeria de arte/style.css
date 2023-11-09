@@ -1,0 +1,577 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.TituloLetra{
+    line-height: 10vw;
+    text-align: center;
+    color: #222;
+    font-size: 3vw;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+#Header{
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    background-color: #b50d2d;
+    height: 2.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8vw;
+}
+
+#Header a{
+    color: white;
+    text-decoration: none;
+    margin: 1vw;
+}
+
+#Header a:visited{
+    color: white;
+}
+
+.icono{
+    width: 1vw;
+    margin-left: 0vw;
+}
+
+.redes{
+    margin-right: 18.2vw;
+}
+
+#Header .redes a{
+    margin: 0.5vw;
+}
+
+#Buscador{
+    color: white;
+    background-color: #b50d2d;
+    border: solid 0.2vw white;
+    border-radius: 2vw;
+    margin: 1vw
+}
+
+#Buscador:focus{
+    outline: none;
+}
+
+#Sub-Header{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9vw;
+    background-color: white;
+    border-bottom: 0.1vw solid black;
+    height: 3.3vw;
+    padding-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Sub-Header p{
+    margin: 8vw;
+}
+
+#Sub-Header a{
+   margin: 2vw;
+   color: #707070; 
+   transition: 0.3s;
+   text-decoration: none;
+}
+
+#Sub-Header a:visited{
+    color: #707070; 
+ }
+
+ #Sub-Header a:hover{
+    color: #b50d2d; 
+ }
+
+ #Sub-Header img{
+    width: 18vw;
+    height: 4.15vw;
+    margin-bottom: 2vw;
+}
+
+#Box1{
+    width: 60vw;
+    height: 50vw;
+    margin: 4vw auto;
+    background-color: white;
+    box-shadow: 0 0 4vw rgba(0, 0, 0, 0.5);
+}
+
+#Box2, #Box3{
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BoxAct{
+    align-items: center;
+    height: 16vw;
+    width: 58vw;
+    display: flex;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ActividadBlock{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18vw;
+    width: 18vw;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+.ActividadBlock p{
+    font-size: 0.7vw;
+    font-family: 'Roboto', Arial, sans-serif;
+    transition: 0.3s;
+}
+
+.ActividadBlock h2{
+    transition: 0.3s;
+    margin: 0.15vw;
+    font-size: 1vw;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.ActividadBlock img{
+    box-sizing: border-box;
+    border-radius: 0.9vw;
+    border: solid 0.2vw; 
+    transition: 0.1s;
+    height: 10vw;
+    width: 10vw;
+}
+
+.ActividadBlock button{
+    height: 1.4vw;
+    margin-top: 0.6vw;
+    background-color: #323032;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    border-color: transparent;
+    width: 6vw;
+    transition: 0.3s;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.ActividadBlock:hover button{
+    color: #ffffff;
+    background-color: #b0b0b0;
+}
+
+.ActividadBlock:hover img{
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+
+.ActividadBlock button:hover{
+    background-color: #ffffff;
+    border: solid 0.1vw #323032;
+    color: #323032;
+}
+
+.ActividadBlock:hover p{
+    color: #b0b0b0;
+}
+
+.ActividadBlock:hover h2{
+    color: #b0b0b0;
+}
+
+#Overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 999;
+}
+
+#InformacionActividad{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95vw;
+    height: 45vw;
+    background-color: white;
+    border-radius: 2vw;
+    box-shadow: 0 0 0.4vw rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000;
+}
+
+.ContenedorDiapositivas img{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    width: 64.4vw;
+    height: 37.4vw; 
+    border: solid 0.2vw black;
+    border-radius: 2vw;
+}
+
+.slide{
+    width: 66.8vw;
+}
+
+#cajaBotones{
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+    width: 64.4vw;
+    height: 5.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cajaBotones button{
+    width: 5.3vw;
+    height: 5.3vw;
+    background-color: #323032;
+    border-radius: 2.65vw;
+    color: white;
+    font-size: 5.3vw;
+    transition: 0.3s;
+    margin: 0 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cajaBotones button:hover{
+    background-color: #ffffff;
+    border: solid 0.2vw #323032;
+    color: #323032;
+}
+
+#CajaTexto {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 1.35vw;
+    line-height: 2;
+    text-align: justify;
+    margin-top: 3.6vw;
+    position: absolute;
+    float: right;
+    width: 26.3vw;
+    margin-right: 1.4vw;
+    height: 42.6vw;
+    top: 0;
+    right: 0;
+}
+
+#textact2{
+    font-size: 1.15vw;
+}
+
+#Footer{
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    background-color: #b50d2d;
+    height: 3vw;
+    width: 99vw;
+}
+
+#Sub-Footer{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    background-color: white;
+    border-top: 0.2vw solid black;
+    height: 8vw;
+    width: 95.1vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-section{
+    text-align: center;
+    margin: 0.1vw 1.4vw;
+}
+
+.footer-section h3{
+    font-size: 1vw;
+    margin-bottom: 0.7vw;
+    font-weight: bold;
+}
+
+.footer-section p{
+    font-size: 0.9vw;
+    line-height: 2;
+}
+
+.footer-section a{
+    color: black;
+    text-decoration: none;
+}
+
+.FooterRed{
+    color: black;
+    transition: 0.3s;
+}
+
+.FooterRed:hover{
+    color: #b50d2d;
+}
+
+/* TEXTO PARA LA PAGINA DE ESTUDIANTES Y PROYECTO */
+
+#BoxProyecto{
+    width: 65vw;
+    height: 125vw;
+    margin: 4vw auto;
+    background-color: white;
+    box-shadow: 0 0 4vw rgba(0, 0, 0, 0.5);
+}
+
+#BoxParticipantes{
+    width: 65vw;
+    height: 75vw;
+    margin: 4vw auto;
+    background-color: white;
+    box-shadow: 0 0 4vw rgba(0, 0, 0, 0.5);
+}
+
+#TextSection{
+    display: flex;
+    justify-content: center;
+    height: 45vw;
+    width: 65vw;
+}
+
+#TextBox{
+    text-align: center;
+    font-family: 'Raleway', Arial, sans-serif;
+    line-height: 2;
+    font-size: 2vw;
+    height: 43.65vw;
+    width: 60.45vw;
+}
+
+#TextBox p{
+    text-align: left;
+}
+
+.CentrarImg{
+  display: block;
+  margin: 0 auto;
+  border: solid 0.2vw #b50d2d;
+  border-radius: 2.65vw;
+  width: 37.4vw;
+  height: 14.1vw;
+}
+
+@media screen and (max-width: 980px) {
+    #body{
+        margin: 0;
+      }
+
+    #Header {
+      font-size: 2.2vw;
+      height: 10vw;
+    }
+
+    #Lupa{
+        display: none;
+    }
+
+    .icono{
+        width: 3vw;
+        margin-left: 0.8vw;
+    }
+    
+    #Buscador{
+        display: none;
+    }
+  
+    .TituloLetra {
+      font-size: 6vw;
+    }
+  
+    #Sub-Header {
+      font-size: 3vw;
+      height: 9vw;
+    }
+  
+    #Sub-Header p{
+      margin: 4vw;
+    }
+  
+    #Sub-Header a{
+      margin: 1.5vw;
+    }
+  
+    #Sub-Header img{
+      width: 18vw;
+      height: 5vw;
+    }
+  
+    #Box1 {
+      width: 90vw;
+      height: auto;
+      margin: 4vw auto;
+    }
+  
+    #Box2, #Box3 {
+      height: auto;
+      flex-direction: column;
+    }
+  
+    .BoxAct {
+      height: auto;
+      width: 90vw;
+      flex-direction: column;
+    }
+  
+    .ActividadBlock {
+      width: 50vw;
+      height: auto;
+      margin: 5vw;
+    }
+  
+    .ActividadBlock p {
+      font-size: 2vw;
+      margin-bottom: 1vw;
+    }
+  
+    .ActividadBlock h2 {
+      font-size: 2.9vw;
+      margin-top: 1vw;
+    }
+  
+    .ActividadBlock img {
+      width: 30vw;
+      height: auto;
+    }
+  
+    .ActividadBlock button {
+      height: 3.9vw;
+      font-size: 3vw;
+      width: 22vw;
+      margin-top: 2vw;
+    }
+  
+    #InformacionActividad {
+      width: 75vw;
+      height: 120vw;
+    }
+  
+    .ContenedorDiapositivas img {
+      width: 73vw;
+      height: 50vw;
+    }
+  
+    .slide {
+      width: 82vw;
+    }
+  
+    #cajaBotones {
+      margin-top: 2vw;
+      width: 75vw;
+    }
+  
+    #cajaBotones button {
+      width: 8vw;
+      height: 8vw;
+      font-size: 6vw;
+      margin: 2vw;
+    }
+  
+    #CajaTexto {
+      margin-top: 65vw;
+      font-size: 2.4vw;
+      line-height: 2;
+      width: 70vw;
+    }
+
+    #textact2{
+        font-size: 2.1vw;
+    }
+  
+    #Footer {
+      height: 6vw;
+      width: 100vw;
+    }
+  
+    #Sub-Footer {
+      height: auto;
+      width: 94vw;
+      text-align: center;
+      margin: 2vw;
+    }  
+
+    #Sub-Footer h3{
+        display: none;
+    }  
+
+    #Sub-Footer p{
+        display: none;
+    }  
+
+    #Sub-Footer img{
+       width: 30vw;
+       height: 30vw;
+    }  
+
+    /* TEXTO PARA LA PAGINA DE ESTUDIANTES Y PROYECTO */
+
+    #BoxProyecto{
+        width: 90vw;
+        height: 250vw;
+        margin: 4vw auto;
+        background-color: white;
+        box-shadow: 0 0 4vw rgba(0, 0, 0, 0.5);
+    }
+
+    #BoxParticipantes{
+        width: 90vw;
+        height: 150vw;
+        margin: 4vw auto;
+        background-color: white;
+        box-shadow: 0 0 4vw rgba(0, 0, 0, 0.5);
+    }
+
+    #TextSection{
+        display: flex;
+        justify-content: center;
+        margin-left: 12vw;
+        height: 45vw;
+        width: 65vw;
+    }
+
+    #TextBox{
+        font-family: 'Raleway', Arial, sans-serif;
+        line-height: 2;
+        font-size: 3vw;
+        height: 43.65vw;
+        width: 60.45vw;
+    }
+
+    .CentrarImg{
+    display: block;
+    margin: 0 auto;
+    border: solid 0.2vw #b50d2d;
+    border-radius: 2.65vw;
+    width: 60vw;
+    height: 40vw;
+    }
+}
